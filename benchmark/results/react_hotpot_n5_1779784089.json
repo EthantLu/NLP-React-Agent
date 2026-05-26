@@ -1,0 +1,31 @@
+{
+  "n_done": 2,
+  "em": 0.0,
+  "f1": 0.0,
+  "records": [
+    {
+      "_id": "dev_5238",
+      "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+      "gold": "1755",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_912",
+      "question": "Black Book starred the actress and writer of what heritage?",
+      "gold": "Dutch",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "bridge",
+      "level": "hard"
+    }
+  ]
+}

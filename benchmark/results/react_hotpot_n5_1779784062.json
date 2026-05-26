@@ -1,0 +1,67 @@
+{
+  "n_done": 5,
+  "em": 0.0,
+  "f1": 0.0,
+  "records": [
+    {
+      "_id": "dev_5238",
+      "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+      "gold": "1755",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_912",
+      "question": "Black Book starred the actress and writer of what heritage?",
+      "gold": "Dutch",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_204",
+      "question": "Which actor does American Beauty and American Beauty have in common?",
+      "gold": "Kevin Spacey",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_6074",
+      "question": "Ken Pruitt  was a Republican member of an upper house of the legislature with how many members ?",
+      "gold": "40 members",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_2253",
+      "question": "Between Greyia and Calibanus, which genus contains more species?",
+      "gold": "Greyia",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 0,
+      "trace": [],
+      "type": "comparison",
+      "level": "hard"
+    }
+  ]
+}

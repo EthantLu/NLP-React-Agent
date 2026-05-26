@@ -1,0 +1,138 @@
+{
+  "n_done": 5,
+  "em": 0.2,
+  "f1": 0.3333333333333333,
+  "records": [
+    {
+      "_id": "dev_5238",
+      "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+      "gold": "1755",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 2,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "I need to find the university where Sergei Aleksandrovich Tokarev was a professor, then find the year it was founded.",
+          "action": "Search[Sergei Aleksandrovich Tokarev]",
+          "observation": "Sergei Aleksandrovich Tokarev (Russian: Серге́й Алекса́ндрович То́карев; 29 December 1899 – 19 April 1985) was a Russian scholar, ethnographer, historian, researcher of religious beliefs, doctor of historical sciences, and professor at Moscow State University. Sergei Aleksandrovich Tokarev was born in Tula on 29 December 1899. He graduated with honors from Tula grammar school and entered Moscow University. Immediately after the revolution, conditions in Moscow in 1918 were dangerous and difficult, and Tokarev went back to the apparent safety of his home province of Tula. He taught Russian and Latin in local schools for four years."
+        },
+        {
+          "step": 2,
+          "thought": "Sergei Aleksandrovich Tokarev was a professor at Moscow State University. I need to search Moscow State University to find the year it was founded.",
+          "action": "Search[Moscow State University]",
+          "observation": "Moscow State University (MSU), officially M. V. Lomonosov Moscow State University, is a public research university in Moscow, Russia. The university includes 15 research institutes, 43 faculties, more than 300 departments, and six branches. Alumni of the university include past leaders of the Soviet Union and other governments."
+        }
+      ],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_912",
+      "question": "Black Book starred the actress and writer of what heritage?",
+      "gold": "Dutch",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 1,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "I need to search Black Book and find the actress and writer, then find their heritage.",
+          "action": "Search[Black Book]",
+          "observation": "Black Book, Black book or Blackbook may refer to: Black Book (film), a 2006 Dutch thriller film by director Paul Verhoeven Black Book (soundtrack), soundtrack of the 2006 film The Black Book (serial), a 1929 American drama film serial The Black Book, alternative name for the 1949 American drama film Reign of Terror, set in the French Revolution The Black Book (2018 film), a 2018 Portuguese film directed by Valeria Sarmiento The Black Book (2023 film), a 2023 Nigerian film starring Richard Mofe-Damijo A cyprianus (Norwegian: Svarteboken), a spell-book of Scandinavian tradition Melnā grāmata, a book of magic in Latvian tradition The Black Book (list), the list produced in 1940 of people to be arrested by the Gestapo following a planned Nazi invasion of Britain in the Second World War The Black Book (Morrison book), a 1974 book by Toni Morrison The Black Book of Capitalism, a 1998 book that assigns blame for what it argues are historic repressions to capitalism The Black Book of Capitalism: A Farewell to Market Economy, a 1999 book written by Robert Kurz The Black Book of Colonialism, a 2003 book documenting evils that it attributes to colonialism The Black Book of Communism, a 1997 book that catalogs crimes that it argues resulted from the pursuit of communism The Black Book of English Canada, a 2001 book detailing evils that it attributes to English-speaking Canada The Black Book: Imbalance of Power and Wealth in the Sudan, a 2000 dissident publication The Black Book of Poland, a 1942 summary of the Nazi German atrocities in occupied Poland published by the Polish Ministry of Information The Black Book of Polish Jewry, a 1943 statement of the Association of Jewish Refugees and Immigrants from Poland on the Holocaust of Polish Jews The Black Book of Soviet Jewry, a 1944 compilation of documentary reports about the actions of Nazis against Jews in Eastern Europe during the Holocaust Black Books (Jung), a posthumous collection of Carl Jung's private journals published in October 2020 Berlin Black Book owned by Prince of Albania, compiled during World War I by Germany and allegedly containing long list of British perverts, described in the 1918 article by Harold Spencer published by Noel Pemberton-Billing Talaat Pasha's Black Book, or The Remaining Documents of Talaat Pasha, a 2008 book by Murat Bardakçı The Black Book, a catalog of American precancel stamps Black Book of Pushbacks, a 2020 book about abuse of migrants in the Balkans compiled by Border Violence Monitoring Network Graphics Programming Black Book, a 1997 book by Michael Abrash The Black Book (Durrell novel), a 1938 novel by Lawrence Durrell The Black Book (Pamuk novel), a 1990 novel by Turkish novelist Orhan Pamuk The Black Book (Rankin novel), a 1993 novel by Scottish writer Ian Rankin Black Book (novel), a 2006 novel derived from the 2006 film Black Book The Black Book (Patterson novel), a 2017 novel by James Patterson and David Ellis BlackBook, an arts and culture magazine Black Book of Carmarthen, one of the earliest surviving manuscripts written entirely in Welsh Yazidi Black Book, one of the two holy books of the Yazidi religion (Kurdish language) Black Book of Clanranald, on Clan history, literature and poems \"The Black Book\" (Danger Man), a 1965 episode \"The Black Book\" (Garfield and Friends), a 1989 episode \"The Black Book\" (Rebus), a 2006 episode \"The Black Book\" (Midsomer Murders), a 2009 episode Black Books, a British sitcom Blackbook - TV talk show focused on African Americans; created by WFIL-TV in Philadelphia between 1969-1971 Black Book (National Auto Research), a vehicle appraisal service Black Book (gambling), a nickname for a list of individuals blacklisted from casinos Black books of hours, Flemish illuminated manuscripts, created on black dyed vellum. Black Book (video game), an adventure role-playing video game A traditional or Wiccan name for a grimoire, the personal guide book to ritual kept by every practicing witch, or other text instructing in magic Black book, a slang term for a graffiti artist's notebook or sketchbook Black books, records of Lincoln's Inn, a barristers association in London The Black Book (album) Address book Black Book of the Admiralty, a collection of medieval maritime law Book of Negroes, a 1783 list of the Black Loyalists, those African Americans who fought for the British Crown Liber Niger (disambiguation), Latin for \"Black Book\" Il libro nero, 1951 novel by Giovanni Papini Little black book (disambiguation) Blue book (disambiguation) Green Book (disambiguation) Orange Book (disambiguation) Pink Book (disambiguation) Plum Book White book (disambiguation) Yellow Book (disambiguation)"
+        }
+      ],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_204",
+      "question": "Which actor does American Beauty and American Beauty have in common?",
+      "gold": "Kevin Spacey",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 2,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "The question asks which actor is common to two films, both named \"American Beauty\". This is likely a trick question, but I will first search \"American Beauty\" to see if there are two distinct films or if the question is referring to the same film twice.",
+          "action": "Search[American Beauty]",
+          "observation": "American Beauty may refer to: American Beauty (Ferber novel), a 1931 novel by Edna Ferber American Beauty (Dean novel), a 2006 novel by Zoey Dean in the A-List series American Beauty (1999 film), a 1999 film starring Kevin Spacey and Annette Bening American Beauty (1927 film), a lost 1927 silent film romantic drama The American Beauty (1916 film), a lost silent film American Beauty (album), a 1970 album by the Grateful Dead American Beauty: Original Motion Picture Score, the original score to the 1999 film American Beauty (soundtrack), a soundtrack to the 1999 film American Beauty (EP), a 2014 EP by Bruce Springsteen (or its title track) American Beauty/American Psycho, a 2015 album by Fall Out Boy (or its title track) American Beauty, 1998 album by The Nashville Bluegrass Band \"American Beauty\", by Bruce Springsteen from American Beauty (EP), 2014 \"American Beauty\", by Pat Boone from Yes Indeed!, 1958 \"American Beauty\", by Fall Out Boy from American Beauty/American Psycho, 2015 \"American Beauty\", by Nessa Barrett from Aftercare (Deluxe Edition), 2025 Rosa 'American Beauty', a hybrid perpetual rose The chess game Levitsky versus Marshall \"American Beauty Rose\" (song), a 1961 single by Frank Sinatra American Beauty/American Psycho (album), 2015 album by Fall Out Boy American Beauty/American Psycho Tour (concert tour), a 2015 concert tour by Fall Out Boy \"American Beauty/American Psycho\" (song), a 2014 song by Fall Out Boy off the eponymous album American Beauty/American Psycho All pages with titles beginning with American Beauty All pages with titles containing American Beauty American (disambiguation) Beauty (disambiguation)"
+        },
+        {
+          "step": 2,
+          "thought": "The search results show two films named \"American Beauty\": a 1999 film and a 1927 film. The question is asking which actor is common to both. I will first search the 1999 film to get its cast list.",
+          "action": "Search[American Beauty (1999 film)]",
+          "observation": "American Beauty is a 1999 American black comedy and psychological drama film directed by Sam Mendes in his feature directorial debut, and written by Alan Ball. Kevin Spacey stars as Lester Burnham, an advertising executive who has a midlife crisis when he becomes infatuated with his teenage daughter's best friend, played by Mena Suvari. Annette Bening stars as Lester's materialistic wife, Carolyn, and Thora Birch plays their insecure daughter, Jane. Wes Bentley, Chris Cooper, Peter Gallagher, and Allison Janney co-star. Academics have described the film as satirizing how beauty and personal satisfaction are perceived by the American middle class; further analysis has focused on the film's explorations of romantic and paternal love, sexuality, materialism and self-liberation."
+        }
+      ],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_6074",
+      "question": "Ken Pruitt  was a Republican member of an upper house of the legislature with how many members ?",
+      "gold": "40 members",
+      "pred": "40",
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "steps": 3,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "I need to search Ken Pruitt to find which state legislature he was a member of, then find the total number of members in that state's upper house.",
+          "action": "Search[Ken Pruitt]",
+          "observation": "Ken Pruitt (born January 24, 1957) is an American politician who served as a member of the Florida Senate. A Republican, he represented the 27th district and the 28th District from 2000 to 2009, which included portions of Indian River, Martin, Okeechobee, Palm Beach and St. Lucie Counties. He was previously a member of the Florida House of Representatives from 1990 through 2000. On November 21, 2006, Ken Pruitt was chosen by the unanimous vote of his colleagues to serve a two-year term as President of the Florida Senate."
+        },
+        {
+          "step": 2,
+          "thought": "Ken Pruitt was a member of the Florida Senate, which is the upper house of the Florida Legislature. I need to search for the Florida Senate to find the total number of members.",
+          "action": "Search[Florida Senate]",
+          "observation": "The Florida Senate is the upper house of the Florida Legislature, the state legislature of the U.S. state of Florida, the Florida House of Representatives being the lower house. Article III, Section 1 of the Constitution of Florida, adopted in 1968, defines the role of the Legislature and how it is to be constituted. The Senate is composed of 40 members, each elected from a single-member district with a population of approximately 540,000 residents. The Senate Chamber is located in the State Capitol building. The Republicans hold a supermajority in the chamber with 27 seats; Democrats are in the minority with 12 seats."
+        },
+        {
+          "step": 3,
+          "thought": "The Florida Senate has 40 members. Therefore, Ken Pruitt was a Republican member of an upper house of the legislature with 40 members.",
+          "action": "Finish[40]",
+          "observation": "40"
+        }
+      ],
+      "type": "bridge",
+      "level": "hard"
+    },
+    {
+      "_id": "dev_2253",
+      "question": "Between Greyia and Calibanus, which genus contains more species?",
+      "gold": "Greyia",
+      "pred": "Greyia",
+      "em": 1,
+      "f1": 1.0,
+      "steps": 3,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "I need to search Greyia and Calibanus, find the number of species in each genus, and then compare to see which has more.",
+          "action": "Search[Greyia]",
+          "observation": "Greyia is a genus of plant in family Francoaceae. It contains three species native to South Africa, Eswatini, and Lesotho: Greyia flanaganii Bolus Greyia radlkoferi Szyszył. Greyia sutherlandii Hook. & Harv. Unlike other plants sometimes included in the family Melianthaceae, Greyia has simple (undivided) leaves, flowers with ten stamens, and ovaries with parietal placentation. Because of this, the genus has sometimes been placed in a separate family Greyiaceae, but under the APG II system and APG III system of classification, it was included in the Melianthaceae."
+        },
+        {
+          "step": 2,
+          "thought": "Greyia contains three species. I need to search Calibanus next to find the number of species in that genus.",
+          "action": "Search[Calibanus]",
+          "observation": "Calibanus was a genus of two species of flowering plants, both evergreen succulents from dry areas of northeastern Mexico.The genus was subsumed in the genus Beaucarnea in the year 2014. The APG III classification system places Beaucarnea in the family Asparagaceae, subfamily Convallarioideae (formerly the family Ruscaceae.) The now-defunct Calibanus was formerly included in the Agavaceae (now Agavoideae) but was separated from them, for it is polycarpic and dioecious. Its name refers to the monster Caliban, an antagonist in Shakespeare's The Tempest. Calibanus is dioecious. It is extremely drought-tolerant, with a slow-growing habit."
+        },
+        {
+          "step": 3,
+          "thought": "Greyia contains three species, and Calibanus contained two species. Therefore, Greyia contains more species.",
+          "action": "Finish[Greyia]",
+          "observation": "Greyia"
+        }
+      ],
+      "type": "comparison",
+      "level": "hard"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "n_done": 1,
+  "em": 0.0,
+  "f1": 0.0,
+  "records": [
+    {
+      "_id": "dev_5238",
+      "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+      "gold": "1755",
+      "pred": "",
+      "em": 0,
+      "f1": 0.0,
+      "steps": 1,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "I need to find the university where Sergei Aleksandrovich Tokarev was a professor, then find the year that university was founded.",
+          "action": "Search[Sergei Aleksandrovich Tokarev]",
+          "observation": "Sergei Aleksandrovich Tokarev (Russian: Серге́й Алекса́ндрович То́карев; 29 December 1899 – 19 April 1985) was a Russian scholar, ethnographer, historian, researcher of religious beliefs, doctor of historical sciences, and professor at Moscow State University. Sergei Aleksandrovich Tokarev was born in Tula on 29 December 1899. He graduated with honors from Tula grammar school and entered Moscow University. Immediately after the revolution, conditions in Moscow in 1918 were dangerous and difficult, and Tokarev went back to the apparent safety of his home province of Tula. He taught Russian and Latin in local schools for four years."
+        }
+      ],
+      "type": "bridge",
+      "level": "hard"
+    }
+  ]
+}
