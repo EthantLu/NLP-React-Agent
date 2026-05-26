@@ -53,3 +53,11 @@ class HelloAgentsLLM:
             print(f" 调用LLM API时发生错误: {e}")
             return None
 
+
+if __name__ == "__main__":
+    llm = HelloAgentsLLM()
+    reply = llm.think([
+        {"role": "user", "content": "请用一句话自我介绍。"},
+    ])
+    print("\n--- 测试结果 ---")
+    print("通畅" if reply else "失败")

@@ -50,7 +50,8 @@ class ReActAgent:
             # 4. 执行Action
             if action.startswith("Finish"):
                 # 如果是Finish指令，提取最终答案并结束
-                final_answer = re.match(r"Finish\[(.*)\]", action).group(1)
+                m = re.match(r"Finish\[(.*)\]", action, re.DOTALL)
+                final_answer = m.group(1).strip() if m else action[len("Finish"):].strip(" :[]\n")
                 print(f" 最终答案: {final_answer}")
                 return final_answer
             
@@ -72,9 +73,25 @@ class ReActAgent:
             self.history.append(f"Action: {action}")
             self.history.append(f"Observation: {observation}")
 
-        # 循环结束
-        print("已达到最大步数，流程终止。")
-        return None
+        # 循环结束:强制让LLM根据已有历史给出最终答案
+        print(f"已达到最大步数({self.max_steps})，强制输出最终答案。")
+        history_str = "\n".join(self.history)
+        force_prompt = (
+            f"你已达到最大思考步数,必须立刻给出最终答案,不能再调用任何工具。\n"
+            f"请基于以下历史信息直接回答用户的问题。\n\n"
+            f"Question: {question}\n"
+            f"History:\n{history_str}\n\n"
+            f"请只输出最终答案文本,不要再输出 Thought / Action / Finish 等标记。"
+        )
+        final_answer = self.llm_client.think(
+            messages=[{"role": "user", "content": force_prompt}]
+        )
+        if final_answer:
+            final_answer = final_answer.strip()
+            print(f" 最终答案: {final_answer}")
+        else:
+            print(" 警告:LLM未能给出最终答案。")
+        return final_answer
 
     def _parse_output(self, text: str):
         """解析LLM的输出，提取Thought和Action。
