@@ -1,0 +1,44 @@
+{
+  "n_done": 1,
+  "em": 1.0,
+  "f1": 1.0,
+  "records": [
+    {
+      "_id": "dev_5238",
+      "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+      "gold": "1755",
+      "pred": "1755",
+      "em": 1,
+      "f1": 1.0,
+      "steps": 4,
+      "trace": [
+        {
+          "step": 1,
+          "thought": "I need to find the university where Sergei Aleksandrovich Tokarev was a professor, then find the year that university was founded.",
+          "action": "Search[Sergei Aleksandrovich Tokarev]",
+          "observation": "Sergei Aleksandrovich Tokarev (Russian: Серге́й Алекса́ндрович То́карев; 29 December 1899 – 19 April 1985) was a Russian scholar, ethnographer, historian, researcher of religious beliefs, doctor of historical sciences, and professor at Moscow State University. Sergei Aleksandrovich Tokarev was born in Tula on 29 December 1899. He graduated with honors from Tula grammar school and entered Moscow University. Immediately after the revolution, conditions in Moscow in 1918 were dangerous and difficult, and Tokarev went back to the apparent safety of his home province of Tula. He taught Russian and Latin in local schools for four years."
+        },
+        {
+          "step": 2,
+          "thought": "Sergei Aleksandrovich Tokarev was a professor at Moscow State University. I need to search Moscow State University and find the year it was founded.",
+          "action": "Search[Moscow State University]",
+          "observation": "Moscow State University (MSU), officially M. V. Lomonosov Moscow State University, is a public research university in Moscow, Russia. The university includes 15 research institutes, 43 faculties, more than 300 departments, and six branches. Alumni of the university include past leaders of the Soviet Union and other governments."
+        },
+        {
+          "step": 3,
+          "thought": "The search results do not state the founding year of Moscow State University. I need to look up the keyword \"founded\" to find this information.",
+          "action": "Lookup[founded]",
+          "observation": "(Result 1 / 2) Though Moscow State University was founded in 1755, St."
+        },
+        {
+          "step": 4,
+          "thought": "The observation states that Moscow State University was founded in 1755. This answers the question.",
+          "action": "Finish[1755]",
+          "observation": "1755"
+        }
+      ],
+      "type": "bridge",
+      "level": "hard"
+    }
+  ]
+}
